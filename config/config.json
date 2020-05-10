@@ -1,0 +1,13 @@
+{
+	"app_name": "Dash Login",
+	"app_title": "Dash Login App",
+	"port": "5000",
+	"debug": true,
+	"suppress_callback_exceptions": true,
+	"protected_paths": [
+		"/profile",
+		"/success",
+		"/change_password",
+		"/app1"
+	]
+}

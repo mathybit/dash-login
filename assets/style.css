@@ -1,0 +1,115 @@
+body {
+  color: #515151;
+  font-size: 1em;
+  background-color: #c5b4b4; /*#ecf3f3;*/
+}
+
+.app-body {
+	padding: 1em;
+	background-color: #e5d3d3;
+	border: none;
+	border-top: 10px #7a3939 solid;
+	border-radius: 10px 10px 10px 10px;
+	font-family: "Helvetica";
+	font-size: 1em;
+}
+
+
+/********************************************/
+/******** Styling for the app header ********/
+.app-header {
+	padding: 0.1em;
+	vertical-align: middle;
+	color: #ffd6d6; /*e5d5d5*/
+	background-color: #2d2a2a;
+	border: none;
+	border-radius: 10px 10px 0px 0px;
+	/*box-shadow: 0em 0.3em 2em 0em #517687;*/
+	/*border: 1px red dotted;*/
+}
+.app-header-logo-container {
+	padding: 5px;
+	width: 175;
+	height: 70;
+	display: inline-block;
+	/*border: 1px red dotted;*/
+}
+.app-header-title {
+	font-family: "Helvetica";
+	font-size: 2em;
+	text-align: right;
+	/*text-shadow: 2px 2px black;*/
+	padding: 0.5em;
+	/*width: 60%;*/
+	height: 70;
+	float: right;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/******************************************/
+/************ Menu bar styling ************/
+.menu-bar: {
+	height: 12em;
+	width: 100%;
+}
+.menu-bar-left: {
+	width: 60%;
+}
+.menu-bar-right: {
+	width: 39%;
+	text-align: right;
+}
+.menu-option {
+	display: inline-block;
+	margin-right: 2px;
+}
+.user-display-text{
+	margin-right: 0.7em;
+}
+
+
+
+/********************************************/
+/******** Styling for the login forms ********/
+.login-form, .reset-form, .change-form, .adduser-form {
+	width: 100%;
+	text-align: center;
+}
+.login-form-input, .reset-form-input, .change-form-input, .adduser-form-input {
+	padding: 0.3em;
+}
+
+.deluser-table-wrapper {
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/********************************************/
+/******** Styling for the app footer ********/
+.app-footer {
+	padding: 0.8em;
+}
+.app-footer-separator {
+	width: 100%;
+}
+.app-footer-content {
+	text-align: left;
+	font-family: "Helvetica";
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+

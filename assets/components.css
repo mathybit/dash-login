@@ -1,0 +1,54 @@
+.custom-button {
+	background-color: #af4d4d;
+	/*border-color: #111111;*/
+	padding: 0.5em;
+	width: 6em;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+	color: #ffd6d6;
+	text-align: center;
+	font-size: 1em;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.custom-button:hover {
+	background-color: #7a3939;
+}
+.custom-button:active {
+	background-color: #843131;
+}
+.custom-button:disabled {
+	background-color: #a0a0a0;
+}
+
+
+
+.custom-button-menu {
+	background-color: #af4d4d;
+	/*border-color: #111111;*/
+	padding: 0.5em;
+	width: 8em;
+	border: none;
+	border-radius: 0px 0px 5px 5px;
+	color: #ffd6d6;
+	text-align: center;
+	font-size: 1em;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.custom-button-menu:hover {
+	background-color: #7a3939;
+}
+.custom-button-menu:active {
+	background-color: #843131;
+}
+.custom-button-menu:disabled {
+	background-color: #a0a0a0;
+}
+
+
+
+/* Don't show the dash undo/redo button */
+._dash-undo-redo {
+	display: none;
+}
